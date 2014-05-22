@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D79C392E18EF4D310020BC06 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79C392D18EF4D310020BC06 /* main.cpp */; };
-		D79C393018EF4D310020BC06 /* echo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D79C392F18EF4D310020BC06 /* echo.1 */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		D79C392818EF4D310020BC06 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,17 +13,13 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				D79C393018EF4D310020BC06 /* echo.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D79C392A18EF4D310020BC06 /* echo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = echo; sourceTree = BUILT_PRODUCTS_DIR; };
-		D79C392D18EF4D310020BC06 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D79C392F18EF4D310020BC06 /* echo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = echo.1; sourceTree = "<group>"; };
-		D79C393618EF4DAD0020BC06 /* CBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBase.h; sourceTree = "<group>"; };
+		D79C392A18EF4D310020BC06 /* echo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = echo; path = /Users/stem1/Documents/source/echo/build/Debug/echo; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,27 +36,7 @@
 		D79C392118EF4D310020BC06 = {
 			isa = PBXGroup;
 			children = (
-				D79C392C18EF4D310020BC06 /* echo */,
-				D79C392B18EF4D310020BC06 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		D79C392B18EF4D310020BC06 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D79C392A18EF4D310020BC06 /* echo */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D79C392C18EF4D310020BC06 /* echo */ = {
-			isa = PBXGroup;
-			children = (
-				D79C392D18EF4D310020BC06 /* main.cpp */,
-				D79C392F18EF4D310020BC06 /* echo.1 */,
-				D79C393618EF4DAD0020BC06 /* CBase.h */,
-			);
-			path = echo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +76,7 @@
 				en,
 			);
 			mainGroup = D79C392118EF4D310020BC06;
-			productRefGroup = D79C392B18EF4D310020BC06 /* Products */;
+			productRefGroup = D79C392118EF4D310020BC06;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,7 +90,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79C392E18EF4D310020BC06 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +199,7 @@
 				D79C393518EF4D310020BC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
